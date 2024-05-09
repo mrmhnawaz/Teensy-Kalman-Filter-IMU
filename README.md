@@ -25,7 +25,7 @@ Kalman filter algorithm implementation (included in the sketch)
 Setup Instructions
 Connect the MPU6050 sensor to the Teensy microcontroller as per the wiring diagram provided in the documentation.
 Install the necessary libraries (MPU6050) in the Arduino IDE.
-Upload the provided Arduino sketch (Teensy_Kalman_Filter_IMU.ino) to the Teensy board.
+Upload the provided Arduino sketch (Teensy_Kalman_MadgwickFilter_IMU.ino) to the Teensy board.
 Open the serial monitor in the Arduino IDE to view the filtered angle data in real-time.
 
 Repository Structure
@@ -39,6 +39,9 @@ Integrate the filtered angle data into your project for stabilization, orientati
 
 Contributions
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
+
+Mohammed Hussain Nawaz: https://github.com/mrmhnawaz
+
 
 License
 This project is licensed under the MIT License.
