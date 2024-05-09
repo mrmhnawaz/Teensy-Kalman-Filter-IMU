@@ -1,4 +1,4 @@
-Teensy Kalman Filter IMU
+Teensy Kalman Madgwick Filter IMU
 Welcome to the Teensy Kalman Filter IMU project repository! This project implements a Kalman filter on a Teensy microcontroller to process data from an MPU6050 accelerometer and gyroscope sensor for inertial measurement unit (IMU) applications.
 
 Overview
@@ -29,7 +29,7 @@ Upload the provided Arduino sketch (Teensy_Kalman_Filter_IMU.ino) to the Teensy 
 Open the serial monitor in the Arduino IDE to view the filtered angle data in real-time.
 
 Repository Structure
-src: Contains the Arduino sketch (Teensy_Kalman_Filter_IMU.ino) implementing the Kalman filter on the Teensy platform.
+src: Contains the Arduino sketch (Teensy_Kalman_MadgwickFilter_IMU.ino) implementing the Kalman filter on the Teensy platform.
 docs: Documentation files including wiring diagrams, setup instructions, and additional resources.
 
 Usage
